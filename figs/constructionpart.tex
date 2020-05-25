@@ -1,0 +1,142 @@
+\renewcommand{\vec}[1]{\mathbf{#1}}
+%\begin{flushleft}
+    
+ %   The \LaTeX{}- tikz code is
+  %  \begin{lstlisting}
+%        constrpic.tex
+   % \end{lstlisting}
+
+ %   The below \LaTeX{} code can be compiled as standalone document
+  %  \begin{lstlisting}
+  %      anattempt.tex
+   % \end{lstlisting}
+%\end{flushleft}
+%\begin{columns}
+%S\column{0.5\textwidth}
+\begin{enumerate}
+\item
+The figure for a triangle obtained in the question looks like Fig. \ref{fig:similar}, with sides a,b,c, an arbitrary interior point $\vec{O}$ and a point $\vec{D}$ on line $\vec{AO}$.  
+\begin{figure}[!ht]
+\centering
+\resizebox{\columnwidth}{!}{\input{./figs/constructionpic.tex}}
+\caption{Triangle by Latex-Tikz}
+\label{fig:similar}	
+\end{figure}
+
+The values used for constructing the triangles in both Python and \LaTeX{}-Tikz is given in Table \ref{table:table1}:\\
+\begin{table}[ht]
+    \begin{center}
+    	\input{inp.tex}
+  \caption{To construct $\triangle ABC$}
+   \label{table:table1}
+   \end{center}	
+\end{table}
+
+\begin{comment}
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{ |p{1cm}|p{3cm}|  }
+    \hline
+    
+    \multicolumn{2}{|c|}{Initial Input Values.} \\
+    \hline
+    a & 5\\
+    \hline
+    b & 6\\
+    \hline
+    c & 4\\
+    \hline
+    p & $(a^2 + c^2 - b^2)/(2*a)$\\
+    \hline
+    q & $(\sqrt(c^2 - p^2)$\\
+    \hline
+    \end{tabular}
+    \caption{To construct $\triangle ABC$}
+    \label{table:table1}	
+\end{table}
+\end{comment}
+
+%\item
+%The derived value of $\vec{p}$ and $\vec{q}$ is available in Table \ref{table:table2}
+
+\item
+Finding the coordinates of various points of Fig. \ref{fig:similar} :\\
+From the information provided in the Table \ref{table:table1}: let\\
+    \quad $ \vec{B}= \begin{pmatrix}0\\0\end{pmatrix}$
+    \quad $\vec{C}=\begin{pmatrix}a\\0\end{pmatrix}$
+    \quad $\vec{A}=\begin{pmatrix}p\\q\end{pmatrix}$\\The derived value of $\vec{p}$ and $\vec{q}$ is available in Table \ref{table:table2}.
+\item Given a point $\vec{O}$, we need to determine whether it lies inside $\triangle ABC$. 
+      A point $\vec{O}$ is said to lie inside $\triangle ABC$ if 
+      \begin{equation}
+      \textbf{ar\big($\triangle ABC$\big) = ar\big($\triangle AOB$\big) + ar\big($\triangle ACO$\big) + ar\big($\triangle OCB$\big)}
+      \end{equation}
+      %$\vec{ar\(ABC\)} = \vec{ar\(AOB\)} + \vec{ar\(ACO\)} + \vec{ar\(OCB\)}$\\
+    
+  %  Since $\vec{O}$ is an interior point of $\triangle ABC$ ,
+\item   Let the arbitrary interior point $\vec{O}$ be represented as $\begin{pmatrix}2\\1.5\end{pmatrix}$.\quad
+    
+    $\vec{D}$ is a point on line $\vec{AO}$ such that $\vec{DE}$ $\parallel$ $\vec{OB}$ \quad and \quad $\vec{DF}$  $\parallel$  $\vec{OC}$.\\
+\item Determination of points D,E and F:\\
+As $\vec{DE}$ $\parallel$ $\vec{OB}$, by basic proportionality theorem the points $\vec{E}$ and $\vec{D}$, divide the lines $\vec{AB}$ and $\vec{AO}$ respectively in the same ratio.\\ Hence we choose points $\vec{E}$ and $\vec{D}$ such that \begin{equation}\frac{AE}{EB} = \frac{AD}{DO}\end{equation} \quad Similarly point $\vec{F}$ is chosen such that the points $\vec{F}$ and $\vec{D}$, divide the lines $\vec{AC}$ and $\vec{AO}$ respectively in the same ratio such that \begin{equation}\frac{AF}{FC} = \frac{AD}{DO}\end{equation}.\\
+  
+  
+  \begin{table}[ht]
+    \begin{center}
+    	\input{inp2.tex}
+  \caption{To construct $\triangle ABC$}
+   \label{table:table2}
+   \end{center}	
+\end{table}
+
+
+\item If the point $\vec{D}$ divides the line $\vec{AO}$ in the ratio x:y, the coordinates of $\vec{D}$ is given by section formula as:
+\begin{equation} \vec{D} = \frac{y\vec{A} + x\vec{O}}{x+y}\end{equation}
+Similarly the coordinates of points $\vec{E}$ and $\vec{F}$ is given by
+\begin{equation} \vec{E} = \frac{y\vec{A} + x\vec{B}}{x+y}\end{equation}
+\begin{equation} \vec{F} = \frac{y\vec{A} + x\vec{C}}{x+y}\end{equation}
+
+Let us assume the points divide the respective lines in the ratio 1:1. Then the coordinates of points $\vec{D}$, $\vec{E}$ and $\vec{F}$ is \\
+ \quad $ \vec{D}= \begin{pmatrix}1.25\\2.73\end{pmatrix}$
+    \quad $\vec{E}=\begin{pmatrix}0.25\\1.98\end{pmatrix}$
+    \quad $\vec{F}=\begin{pmatrix}2.75\\1.98\end{pmatrix}$\\
+%  \input{inp2.tex}
+  
+  \begin{comment}
+    \begin{table}[ht!]
+	\centering
+	\begin{tabular}{ |p{1cm}|p{2cm}|  }
+	\hline
+	\multicolumn{2}{|c|}{Derived Values.} \\
+	\hline
+	$\vec{p}$ & 0.5\\						
+	\hline
+	$\vec{q}$ & 3.96862697\\
+	\hline
+    	\end{tabular}
+	\caption{To construct $\triangle ABC$}
+	\label{table:table2}
+    \end{table}
+    \end{comment}
+    The  following Python code generates Fig. \ref{fig:triabcpy}\\
+    \begin{lstlisting}
+        ./codes/similartriangle.py
+    \end{lstlisting}
+
+    \begin{figure}[!ht]
+	\centering
+	\includegraphics[width=\columnwidth]{./figs/similartrianglefig.pdf}
+	\caption{Triangle generated using python}
+	\label{fig:triabcpy}
+    \end{figure}
+      The equivalent \LaTeX{}- tikz code generating Fig. \ref{fig:similar} is
+    \begin{lstlisting}
+        ./figs/constructionpic.tex
+    \end{lstlisting}
+	
+	The above \LaTeX{} code can be compiled as a standalone document as
+	\begin{lstlisting}
+	./figs/constructionpic_standalone.tex
+	\end{lstlisting}
+\end{enumerate}
+\subsubsection*{To Show:}    We need to prove that $\vec{EF}$ $\parallel$   $\vec{BC}$.\\
+
