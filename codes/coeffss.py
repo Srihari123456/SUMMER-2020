@@ -7,6 +7,20 @@ def tri_hero(a,b,c):
   s = (a+b+c)/2
   area = np.sqrt(s*(s-a)*(s-b)*(s-c))
   return area
+  
+def lieinterior(A,B,C,O):
+	Q = B-A
+	W = O-A
+	E = C- B
+	R = O -B 
+	T = A - C
+	Y = O- C
+	print(np.cross(Q,W))
+	print(np.cross(E,R))
+	print(np.cross(T,Y))
+	
+	return (np.cross(Q,W)>=0 and np.cross(E,R)>=0 and np.cross(T,Y)>=0)
+  
 def interior(A,B,C,O):
     c = (dist(A,B))
     a = (dist(C,B))
