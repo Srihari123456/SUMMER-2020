@@ -33,6 +33,7 @@ F = (m*A + l*C)/(l+m)
 #F = (A+C)/2
 #randomly chosen point D
 print("Is O an interior point?",lieinterior(A,B,C,O))
+print("Does D lieon AO?",lieonline(A,O,D))
 print(A)
 print(O)
 

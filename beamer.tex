@@ -137,14 +137,11 @@ From the information provided, let\\
  \end{column}
 \begin{column}{0.5\textwidth}   
 %The derived value of $\vec{p}$ and $\vec{q}$ is available in Table \ref{table:table2}.\\
-    Given a point $\vec{O}$, we need to determine whether it lies inside $\triangle ABC$.\\ 
-      A point $\vec{O}$ is said to lie inside $\triangle ABC$ if and only if all of the cross products $\vec{AB} \times \vec{AO}$, 
-      $\vec{BC} \times \vec{BO}$  and $\vec{CA} \times \vec{CO}$ are $\geqslant$ 0.\\
+    Given a point $\vec{O}$, we need to determine whether it lies inside $\triangle ABC$.\\The cross product $\vec{AB} \times \vec{AO}$ is defined as a vector $\vec{n}$ that is perpendicular (orthogonal) to both $\vec{AB}$ and $\vec{AO}$, with a direction given by the right-hand rule.\\ A point $\vec{O}$ is said to lie inside $\triangle ABC$ if and only if all of the cross products $\vec{AB} \times \vec{AO}$, $\vec{BC} \times \vec{BO}$  and $\vec{CA} \times \vec{CO}$ point in the same direction relative to the plane. That is, either all of them point out of the plane , or all of them point into the plane. 
    
       %\textbf{ar\big($\triangle ABC$\big) = ar\big($\triangle AOB$\big) + ar\big($\triangle ACO$\big) + ar\big($\triangle OCB$\big)}.\\
 
-  Let the arbitrary interior point $\vec{O}$ be represented as $\begin{pmatrix}2\\1.5\end{pmatrix}$.\quad
-
+ 
  
     
 \end{column}
@@ -164,7 +161,9 @@ From the information provided, let\\
 \frametitle{Construction method}
 \begin{columns}
 \begin{column}{0.5\textwidth}
-    
+    The necessary criteria to satisfy this condition is $\vec{AB} \times \vec{AO}$, $\vec{BC} \times \vec{BO}$  and $\vec{CA} \times \vec{CO}$ must be $\geqslant$ 0.
+      Let the arbitrary interior point $\vec{O}$ be represented as $\begin{pmatrix}2\\1.5\end{pmatrix}$.\quad
+
     $\vec{D}$ is a point on line $\vec{AO}$ such that \\$\vec{DE}$ $\parallel$ $\vec{OB}$ \quad and \quad $\vec{DF}$  $\parallel$  $\vec{OC}$.\\
 
 \textbf{Determination of points D,E and F:}\\
@@ -211,9 +210,14 @@ Similarly the coordinates of points $\vec{E}$ and $\vec{F}$ is given by
  
 \begin{column}{0.5\textwidth} 
 Let us assume the points divide the respective lines in the ratio 1:1. Then the coordinates of points $\vec{D}$, $\vec{E}$ and $\vec{F}$ is \\
- \quad $ \vec{D}= \begin{pmatrix}1.25\\2.73\end{pmatrix}$\\
-    \quad $\vec{E}=\begin{pmatrix}0.25\\1.98\end{pmatrix}$\\
-    \quad $\vec{F}=\begin{pmatrix}2.75\\1.98\end{pmatrix}$\\
+ \quad $ \vec{D}= \begin{pmatrix}1.25\\2.73\end{pmatrix}$\quad
+    \quad $\vec{E}=\begin{pmatrix}0.25\\1.98\end{pmatrix}$\quad
+    \quad $\vec{F}=\begin{pmatrix}2.75\\1.98\end{pmatrix}$\quad
+    
+    
+    To check whether $\vec{D}$ lies on line $\vec{AO}$, substituting the values of the x and y co-ordinate of $\vec{D}$ must satisfy the equation of line $\vec{AO}$. Equation of line joining two points 
+$\big(x_1,y_1\big)$ and $\big(x_2,y_2\big)$ is given by \begin{equation} \frac{x-x_1}{x_2-x_1} = \frac{y-y_1}{y_2-y_1}  \end{equation}
+
   
  \end{column}
 \end{columns}

@@ -8,6 +8,17 @@ def tri_hero(a,b,c):
   area = np.sqrt(s*(s-a)*(s-b)*(s-c))
   return area
   
+  
+def lieonline(A,O,D):
+    x1=A[0]
+    y1=A[1]
+    x2=O[0]
+    y2=O[1]
+    x=D[0]
+    y=D[1]
+
+    return ((x-x1)*(y2-y1) == (y-y1)*(x2-x1))
+      
 def lieinterior(A,B,C,O):
 	Q = B-A
 	W = O-A
