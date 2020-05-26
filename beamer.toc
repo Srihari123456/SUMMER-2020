@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{Question}{2}{0}{1}
-\beamer@sectionintoc {2}{\textbf {Construction}}{3}{0}{2}
-\beamer@subsectionintoc {6}{1}{a}{10}{0}{2}
-\beamer@subsectionintoc {6}{2}{b}{11}{0}{2}
