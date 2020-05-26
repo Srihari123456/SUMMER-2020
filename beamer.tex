@@ -137,22 +137,51 @@ From the information provided, let\\
  \end{column}
 \begin{column}{0.5\textwidth}   
 %The derived value of $\vec{p}$ and $\vec{q}$ is available in Table \ref{table:table2}.\\
-    Given a point $\vec{O}$, we need to determine whether it lies inside $\triangle ABC$.\\The cross product $\vec{AB} \times \vec{AO}$ is defined as a vector $\vec{n}$ that is perpendicular (orthogonal) to both $\vec{AB}$ and $\vec{AO}$, with a direction given by the right-hand rule.\\ A point $\vec{O}$ is said to lie inside $\triangle ABC$ if and only if all of the cross products $\vec{AB} \times \vec{AO}$, $\vec{BC} \times \vec{BO}$  and $\vec{CA} \times \vec{CO}$ point in the same direction relative to the plane. That is, either all of them point out of the plane , or all of them point into the plane. 
+%    Given a point $\vec{O}$, we need to determine whether it lies inside $\triangle ABC$.\\The cross product $\vec{AB} \times \vec{AO}$ is defined as a vector $\vec{n}$ that is perpendicular (orthogonal) to both $\vec{AB}$ and $\vec{AO}$, with a direction given by the right-hand rule.\\ A point $\vec{O}$ is said to lie inside $\triangle ABC$ if and only if all of the cross products $\vec{AB} \times \vec{AO}$, $\vec{BC} \times \vec{BO}$  and $\vec{CA} \times \vec{CO}$ point in the same direction relative to the plane. That is, either all of them point out of the plane , or all of them point into the plane. 
    
       %\textbf{ar\big($\triangle ABC$\big) = ar\big($\triangle AOB$\big) + ar\big($\triangle ACO$\big) + ar\big($\triangle OCB$\big)}.\\
-
- 
- 
-    
+Given a point $\vec{O}$, we need to determine whether it lies inside $\triangle ABC$. Consider 3 vectors $\vec{v_1}$, $\vec{v_2}$ and $\vec{v_3}$ which are orthogonal to vectors $\vec{AB}$,$\vec{BC}$ and $\vec{CA}$ which are ordered counterclock-wise.\\
+Let $\vec{A}$ = $\begin{pmatrix}x_1\\y_1\end{pmatrix}$ \quad $\vec{B}$ = $\begin{pmatrix}x_2\\y_2\end{pmatrix}$ \quad $\vec{C}$ = $\begin{pmatrix}x_3\\y_3\end{pmatrix}$\quad $\vec{O}$ = $\begin{pmatrix}x\\y\end{pmatrix}$\\
+$\vec{AB}$ = $\vec{B}$ - $\vec{A}$ = $\begin{pmatrix}x_2-x_1\\y_2-y_1\end{pmatrix}$\\
+$\vec{BC}$ = $\vec{C}$ - $\vec{B}$ = $\begin{pmatrix}x_3-x_2\\y_3-y_2\end{pmatrix}$\\
+$\vec{CA}$ = $\vec{A}$ - $\vec{C}$ = $\begin{pmatrix}x_1-x_3\\y_1-y_3\end{pmatrix}$\\
+   
 \end{column}
 \end{columns}
 \end{frame}
 
+\section*{Construction methods}
+\begin{frame}[fragile]
+\footnotesize
+\frametitle{Construction method}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+
+Equation of $\vec{AB}$ is
+%\begin{equation}
+$(y_2-y_1)x + (-x_2+x_1)y = x_1(y_2-y_1)$
+ $ - y_1(x_2-x_1)$\\
+%\end{equation}
+As $\vec{v_1}$ is orthogonal to $\vec{AB}$, equation of $\vec{v_1}$ is
+\begin{equation}
+(-x_2+x_1)x - (y_2-y_1)y = d
+\end{equation}
+where d is some constant.Hence $\vec{v_1}$ is represented as $\begin{pmatrix}y_2-y_1\\-x_2+x_1\end{pmatrix}$\\
+Similarly $\vec{v_2}$ is represented as $\begin{pmatrix}y_3-y_2\\-x_3+x_2\end{pmatrix}$\\
+\end{column}
+\begin{column}{0.5\textwidth}   
+
+$\vec{v_3}$ is represented as $\begin{pmatrix}y_1-y_3\\-x_1+x_3\end{pmatrix}$\\
+Position vector of $\vec{O}$ w.r.t $\vec{A}$ is $\vec{v_{1}^{'}}$ = $\begin{pmatrix}x-x_1\\y-y_1\end{pmatrix}$\\
+Position vector of $\vec{O}$ w.r.t $\vec{B}$ is $\vec{v_{2}^{'}}$ = $\begin{pmatrix}x-x_2\\y-y_2\end{pmatrix}$\\
+Position vector of $\vec{O}$ w.r.t $\vec{C}$ is $\vec{v_{3}^{'}}$ = $\begin{pmatrix}x-x_3\\y-y_3\end{pmatrix}$\\
+Now we compute the dot products: $\vec{O}$ lies inside $\triangle ABC$ only if $dot_1$ ,$dot_2$ and $dot_3$ are all $\geqslant$ 0, where $dot_1 = v_1 \cdot v_{1}^{'} \quad dot_2 = v_2 \cdot v_{2}^{'} \quad dot_3 = v_3 \cdot v_{3}^{'}$.
 
 
 
-
-
+\end{column}
+\end{columns}
+\end{frame}
 
 
 \section*{Construction methods}
@@ -161,7 +190,7 @@ From the information provided, let\\
 \frametitle{Construction method}
 \begin{columns}
 \begin{column}{0.5\textwidth}
-    The necessary criteria to satisfy this condition is $\vec{AB} \times \vec{AO}$, $\vec{BC} \times \vec{BO}$  and $\vec{CA} \times \vec{CO}$ must be $\geqslant$ 0.
+  %  The necessary criteria to satisfy this condition is $\vec{AB} \times \vec{AO}$, $\vec{BC} \times \vec{BO}$  and $\vec{CA} \times \vec{CO}$ must be $\geqslant$ 0.
       Let the arbitrary interior point $\vec{O}$ be represented as $\begin{pmatrix}2\\1.5\end{pmatrix}$.\quad
 
     $\vec{D}$ is a point on line $\vec{AO}$ such that \\$\vec{DE}$ $\parallel$ $\vec{OB}$ \quad and \quad $\vec{DF}$  $\parallel$  $\vec{OC}$.\\

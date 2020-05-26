@@ -19,6 +19,15 @@ def lieonline(A,O,D):
 
     return ((x-x1)*(y2-y1) == (y-y1)*(x2-x1))
       
+def dotprod(A,B,C,O):
+	V1 = np.array([B[1]-A[1],-B[0]+A[0]])
+	V1D = np.array([O[0]-A[0],O[1]-A[1]])
+	V2 = np.array([C[1]-B[1],-C[0]+B[0]])
+	V2D = np.array([O[0]-B[0],O[1]-B[1]])
+	V3 = np.array([A[1]-C[1],-A[0]+C[0]])
+	V3D = np.array([O[0]-C[0],O[1]-C[1]])
+     	return (np.dot(V1,V1D)>=0 and np.dot(V2,V2D)>=0 and np.dot(V3,V3D)>=0)
+ 
 def lieinterior(A,B,C,O):
 	Q = B-A
 	W = O-A

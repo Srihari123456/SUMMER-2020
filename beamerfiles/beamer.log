@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.12)  26 MAY 2020 10:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.12)  26 MAY 2020 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1497,7 +1497,7 @@ Package epstopdf Info: Source file: <./figs/similartrianglefig.eps>
 eps-converted-to.pdf ./figs/similartrianglefig.eps>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/similartrianglefig-eps-converted-to.pdf, id=202, 462.52798pt x 346.8960
+<./figs/similartrianglefig-eps-converted-to.pdf, id=210, 462.52798pt x 346.8960
 1pt>
 File: ./figs/similartrianglefig-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/similartrianglefig-eps-converted-to.pdf>
@@ -1534,12 +1534,12 @@ LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
 ]
 \openout4 = `beamer.vrb'.
 
- (./beamer.vrb (./inp2.tex)) [7
+ (./beamer.vrb) [7
 
 ]
 \openout4 = `beamer.vrb'.
 
- (./beamer.vrb) [8
+ (./beamer.vrb (./inp2.tex)) [8
 
 ]
 \openout4 = `beamer.vrb'.
@@ -1547,9 +1547,14 @@ LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
  (./beamer.vrb)
 [9
 
-] [10
+]
+\openout4 = `beamer.vrb'.
+
+ (./beamer.vrb) [10
 
 ] [11
+
+] [12
 
 ]
 \tf@nav=\write7
@@ -1561,23 +1566,23 @@ LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
 \tf@snm=\write9
 \openout9 = `beamer.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 299.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 328.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 328.
  (./beamer.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 299.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 328.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 328.
 Package rerunfilecheck Info: File `beamer.out' has not changed.
-(rerunfilecheck)             Checksum: 9C60548D9E77BBF237803EBD707131FA;464.
+(rerunfilecheck)             Checksum: CBA65E3C8C460463D552A230594ED834;520.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32550 strings out of 481239
- 663693 string characters out of 5920377
- 933922 words of memory out of 5000000
- 46889 multiletter control sequences out of 15000+600000
+ 32561 strings out of 481239
+ 663796 string characters out of 5920377
+ 934922 words of memory out of 5000000
+ 46895 multiletter control sequences out of 15000+600000
  546023 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,16n,101p,794b,1228s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1592,12 +1597,13 @@ e1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/m
-sam10.pfb>
-Output written on beamer.pdf (11 pages, 171711 bytes).
+/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.p
+fb>
+Output written on beamer.pdf (12 pages, 182361 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 495 compressed objects within 5 object streams
- 38 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 633 PDF objects out of 1000 (max. 8388607)
+ 548 compressed objects within 6 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
