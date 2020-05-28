@@ -79,8 +79,8 @@ plt.grid() # minor
 plt.axis('equal')
 
 #if using termux
-plt.savefig('./figs/circle/tri_icircle.pdf')
-plt.savefig('./figs/circle/tri_icircle.eps')
+plt.savefig('./figs/step2.pdf')
+plt.savefig('./figs/step2.eps')
 #subprocess.run(shlex.split("termux-open ./figs/circle/tri_icircle.pdf"))
 #else
 plt.show()
