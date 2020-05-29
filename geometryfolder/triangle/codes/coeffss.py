@@ -10,14 +10,7 @@ def tri_hero(a,b,c):
   
   
 def lieonline(A,O,D):
-    x1=A[0]
-    y1=A[1]
-    x2=O[0]
-    y2=O[1]
-    x=D[0]
-    y=D[1]
-
-    return ((x-x1)*(y2-y1) == (y-y1)*(x2-x1))
+    return ((D[0]-A[0])*(O[1]-A[1]) == (D[1]-A[1])*(O[0]-A[0]))
       
 def dotprod(A,B,C,O):
 	V1 = np.array([B[1]-A[1],-B[0]+A[0]])

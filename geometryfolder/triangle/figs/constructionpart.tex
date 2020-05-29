@@ -66,25 +66,30 @@ From the information provided in the Table \ref{table:table1}: let\\
     \quad $\vec{C}=\begin{pmatrix}a\\0\end{pmatrix}$
     \quad $\vec{A}=\begin{pmatrix}p\\q\end{pmatrix}$\\The derived value of $\vec{p}$ and $\vec{q}$ is available in Table \ref{table:table2}.
 \item Given a point $\vec{O}$, we need to determine whether it lies inside $\triangle ABC$. Consider 3 vectors $\vec{v_1}$, $\vec{v_2}$ and $\vec{v_3}$ which are orthogonal to vectors $\vec{AB}$,$\vec{BC}$ and $\vec{CA}$ which are ordered counterclock-wise.\\
-Let $\vec{A}$ = $\begin{pmatrix}x_1\\y_1\end{pmatrix}$ \quad $\vec{B}$ = $\begin{pmatrix}x_2\\y_2\end{pmatrix}$ \quad $\vec{C}$ = $\begin{pmatrix}x_3\\y_3\end{pmatrix}$\quad $\vec{O}$ = $\begin{pmatrix}x\\y\end{pmatrix}$\\
-$\vec{AB}$ = $\vec{B}$ - $\vec{A}$ = $\begin{pmatrix}x_2-x_1\\y_2-y_1\end{pmatrix}$\\
-$\vec{BC}$ = $\vec{C}$ - $\vec{B}$ = $\begin{pmatrix}x_3-x_2\\y_3-y_2\end{pmatrix}$\\
-$\vec{CA}$ = $\vec{A}$ - $\vec{C}$ = $\begin{pmatrix}x_1-x_3\\y_1-y_3\end{pmatrix}$\\
+%Let $\vec{A}$ = $\begin{pmatrix}x_1\\y_1\end{pmatrix}$ \quad $\vec{B}$ = $\begin{pmatrix}x_2\\y_2\end{pmatrix}$ \quad $\vec{C}$ = $\begin{pmatrix}x_3\\y_3\end{pmatrix}$\quad $\vec{O}$ = $\begin{pmatrix}x\\y\end{pmatrix}$\\
+$\vec{AB}$ = $\vec{B}$ - $\vec{A}$ \\
+%= $\begin{pmatrix}x_2-x_1\\y_2-y_1\end{pmatrix}$\\
+$\vec{BC}$ = $\vec{C}$ - $\vec{B}$\\
+% = $\begin{pmatrix}x_3-x_2\\y_3-y_2\end{pmatrix}$\\
+$\vec{CA}$ = $\vec{A}$ - $\vec{C}$\\
+% = $\begin{pmatrix}x_1-x_3\\y_1-y_3\end{pmatrix}$\\
 
-Equation of $\vec{AB}$ is
-\begin{equation}
-(y_2-y_1)x + (-x_2+x_1)y = x_1(y_2-y_1) - y_1(x_2-x_1)
-\end{equation}
-As $\vec{v_1}$ is orthogonal to $\vec{AB}$, equation of $\vec{v_1}$ is
-\begin{equation}
-(-x_2+x_1)x - (y_2-y_1)y = d
-\end{equation}
-where d is some constant.Hence $\vec{v_1}$ is represented as $\begin{pmatrix}y_2-y_1\\-x_2+x_1\end{pmatrix}$\\
-Similarly $\vec{v_2}$ is represented as $\begin{pmatrix}y_3-y_2\\-x_3+x_2\end{pmatrix}$\\
-$\vec{v_3}$ is represented as $\begin{pmatrix}y_1-y_3\\-x_1+x_3\end{pmatrix}$\\
-Position vector of $\vec{O}$ w.r.t $\vec{A}$ is $\vec{v_{1}^{'}}$ = $\begin{pmatrix}x-x_1\\y-y_1\end{pmatrix}$\\
-Position vector of $\vec{O}$ w.r.t $\vec{B}$ is $\vec{v_{2}^{'}}$ = $\begin{pmatrix}x-x_2\\y-y_2\end{pmatrix}$\\
-Position vector of $\vec{O}$ w.r.t $\vec{C}$ is $\vec{v_{3}^{'}}$ = $\begin{pmatrix}x-x_3\\y-y_3\end{pmatrix}$\\
+%Equation of $\vec{AB}$ is
+%\begin{equation}
+%(y_2-y_1)x + (-x_2+x_1)y = x_1(y_2-y_1) - y_1(x_2-x_1)
+%\end{equation}
+As $\vec{v_1}$ is orthogonal to $\vec{AB}$, dot product of $\vec{v_1}$ and $\vec{AB}$ is 0.
+This condition is satisfied when \\
+$\vec{v_1}$= $\begin{pmatrix}\vec{AB[1]}\\\vec{-AB[0]}\end{pmatrix}$\\
+%\begin{equation}
+%(-x_2+x_1)x - (y_2-y_1)y = d
+%\end{equation}
+%here d is some constant.Hence $\vec{v_1}$ is represented as $\begin{pmatrix}y_2-y_1\\-x_2+x_1\end{pmatrix}$\\
+Similarly $\vec{v_2}$= $\begin{pmatrix}\vec{BC[1]}\\\vec{-BC[0]}\end{pmatrix}$\quad
+$\vec{v_3}$= $\begin{pmatrix}\vec{CA[1]}\\\vec{-CA[0]}\end{pmatrix}$\\
+Position vector of $\vec{O}$ w.r.t $\vec{A}$ is $\vec{v_{1}^{'}}$ = $\vec{O-A}$\\
+Position vector of $\vec{O}$ w.r.t $\vec{B}$ is $\vec{v_{2}^{'}}$ = $\vec{O-B}$\\
+Position vector of $\vec{O}$ w.r.t $\vec{C}$ is $\vec{v_{3}^{'}}$ = $\vec{O-C}$\\
 Now we compute the dot products: $\vec{O}$ lies inside $\triangle ABC$ only if $dot_1$ ,$dot_2$ and $dot_3$ are all $\geqslant$ 0, where $dot_1 = v_1 \cdot v_{1}^{'} \quad dot_2 = v_2 \cdot v_{2}^{'} \quad dot_3 = v_3 \cdot v_{3}^{'}$.
 
 
@@ -132,8 +137,16 @@ Let us assume the points divide the respective lines in the ratio 1:1. Then the 
     \quad $\vec{F}=\begin{pmatrix}2.75\\1.98\end{pmatrix}$\\
     
     
-\item To check whether $\vec{D}$ lies on line $\vec{AO}$, substituting the values of the x and y co-ordinate of $\vec{D}$ must satisfy the equation of line $\vec{AO}$. Equation of line joining two points 
-$\big(x_1,y_1\big)$ and $\big(x_2,y_2\big)$ is given by \begin{equation} \frac{x-x_1}{x_2-x_1} = \frac{y-y_1}{y_2-y_1}  \end{equation}
+\item To check whether $\vec{D}$ lies on line $\vec{AO}$:\\
+% substituting the values of the x and y co-ordinate of $\vec{D}$ must satisfy the equation of line $\vec{AO}$. Equation of line joining two points 
+Let $\vec{AD} = \vec{D} - \vec{A}$\\
+$\vec{AO} = \vec{O} - \vec{A}$\\
+$\vec{D}$ lies on $\vec{AO}$ if the below equation is satisfied:
+\begin{equation}
+\frac{\vec{AD[0]}}{\vec{AD[1]}} = \frac{\vec{AO[0]}}{\vec{AO[1]}}
+\end{equation}
+
+%$\big(x_1,y_1\big)$ and $\big(x_2,y_2\big)$ is given by \begin{equation} \frac{x-x_1}{x_2-x_1} = \frac{y-y_1}{y_2-y_1}  \end{equation}
 %  \input{inp2.tex}
   
   \begin{comment}
