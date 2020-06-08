@@ -1,28 +1,22 @@
 \renewcommand{\vec}[1]{\mathbf{#1}}
- \begin{enumerate}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
 
 
 \item First we need to show that $\vec{M}$ and $\vec{N}$ are the midpoints of $\vec{AB}$ and $\vec{CD}$ respectively.
-%Take a circle C of radius $\vec{r}$=2cm, whose center is $\vec{O}$ such that $ \vec{O}$= $\begin{pmatrix}0\\0\end{pmatrix}$. 
 In the given circle of center $\vec{O}$, let $\vec{AB}$ be an arbitrary chord such that $\vec{OX} \perp \vec{AB}$. We need to show that $\vec{AX}$ = $\vec{BX}$.
 Since $\vec{OX} \perp \vec{AB}$ :\\
 %(O-X).T(A-X)=0
-$\begin{pmatrix}\vec{O-X}\end{pmatrix}^\vec{T}\begin{pmatrix}\vec{A-X}\end{pmatrix}$ = 0\\
-$\implies \begin{pmatrix}\vec{-X[0]} & \vec{-X[1]}\end{pmatrix}\begin{pmatrix}\vec{A[0]-X[0]}\\\vec{A[1]-X[1]}\end{pmatrix}$ = 0\\ 
+$\myvec{\vec{O-X}}^\vec{T}\myvec{\vec{A-X}}$ = 0\\
+\begin{align}
+\implies \myvec{\vec{-X[0]} & \vec{-X[1]}}\myvec{\vec{A[0]-X[0]}\\\vec{A[1]-X[1]}} = 0
+\end{align}
 This condition is satisfied only when $ \vec{X}$ = $\frac{\vec{A+B}}{2}$\quad i.e.  $\vec{X}$ must be the midpoint of $\vec{AB}$.
-\begin{comment}
-\begin{enumerate}
-	\item $\triangle OAX \cong \triangle OBX $by RHS rule as: 
-	\begin{enumerate}
-	\item $\angle{OXA} = \angle{OXB} $ \quad \{90\degree\}
-	\item $\vec{OA} = \vec{OB}$ \quad \{radius of the circle\}
-	\item $\vec{OX} = \vec{OX}$ \quad \{Common\}
-	\end{enumerate}
-\end{enumerate}
-\end{comment}
-\begin{equation}
+
+\begin{align}
 	\therefore \vec{AX} = \vec{BX} \label{eq:1}
-\end{equation}
+\end{align}
 Hence Perpendicular from the center of a circle to a chord bisects the chord.
   
 \begin{figure}[!ht]
@@ -48,28 +42,24 @@ In the circle given in Fig:\ref{fig:steptwotex} whose center is $\vec{O}$, let $
 	\item As $\vec{AB} =  \vec{CD}$\\
 	$\frac{\vec{AB}}{2} = \frac{\vec{CD}}{2}$\\
 	Hence 
-	\begin{equation}
+	\begin{align}
 	\vec{AX} =  \vec{CY} \label{eq:2}
-	\end{equation}
+	\end{align}
 	
 	\item In $\triangle AOX$ and $\triangle COY $ as shown in Fig.\ref{fig:steptwotex} using baudhayana theorem
-	\begin{equation}
-	\| \vec{O-Y}\|^2 + \|\vec{Y-C}\|^2 = \|\vec{O-X}\|^2 + \|\vec{X-A}\|^2
-	\end{equation}
-	Using \eqref{eq:2}, $\| \vec{O-Y}\|^2 = \|\vec{O-X}\|^2$\\
-$	\implies \| \vec{O-Y}\| = \| \vec{O-X}\|$
-\begin{comment}	
-	\begin{enumerate}
-	\item $\angle{OXA} = \angle{OYC} $ \quad \{90\degree\}
-	\item $\vec{OA} = \vec{OC}$ \quad \{radius of the circle\}
-	\item $\vec{AX} = \vec{CY}$ \quad \{From:\eqref{eq:2}\}
-	\end{enumerate}
-	Hence  $\triangle AOX \cong \triangle COY $ by RHS rule.\\
-\end{comment}
+	\begin{align}
+	\norm{\vec{O-Y}}^2 + \norm{\vec{Y-C}}^2 = \norm{\vec{O-X}}^2 + \norm{\vec{X-A}}^2
+	\end{align}
+	Using \eqref{eq:2}, 
+	\begin{align}
+	\norm{\vec{O-Y}}^2 &= \norm{\vec{O-X}}^2
+	\\
+	\implies \norm{\vec{O-Y}} &= \norm{\vec{O-X}}
+	\end{align}
 	
-	\begin{equation}
+	\begin{align}
 	Therefore, \vec{OX}=\vec{OY} \label{eq:3}
-	\end{equation}
+	\end{align}
 \end{enumerate}
 	Hence the equal chords of a circle are equidistant from the center.\\
 
@@ -106,35 +96,28 @@ The  following Python code generates Fig. \ref{fig:stepthree}\\
 
 \item In the circle given in Fig.\ref{fig:stepthreetex} we need to show that $\angle{OXA}$ = $\angle{OXD}$. We draw $\vec{OM} \perp \vec{AB}$ and $\vec{ON} \perp \vec{CD}$.\\
 In $\triangle OMX$ and $\triangle ONX$,using baudhayana theorem
-	\begin{equation}
-	\| \vec{N-O}\|^2 + \|\vec{X-N}\|^2 = \|\vec{M-O}\|^2 + \|\vec{X-M}\|^2
-	\end{equation}
-	Using \eqref{eq:3}, $\| \vec{X-N}\|^2 = \|\vec{X-M}\|^2$\\
-\begin{equation}
-	\implies \| \vec{NX}\| = \| \vec{MX}\| \label{eq:4}
-\end{equation}
+	\begin{align}
+	\norm{\vec{N-O}}^2 + \norm{\vec{X-N}}^2 = \norm{\vec{M-O}}^2 + \norm{\vec{X-M}}^2
+	\end{align}
+	Using \eqref{eq:3}, $\norm{\vec{X-N}}^2 = \norm{\vec{X-M}}^2$\\
+\begin{align}
+	\implies \norm{\vec{NX}} = \norm{\vec{MX}} \label{eq:4}
+\end{align}
 In $\triangle OMX$ and $\triangle ONX$,using cosine formula\\
-\begin{equation}
-\cos{\angle{OXN}} = \frac{  \|\vec{NX}\|^2 + \|\vec{OX}\|^2  - \|\vec{ON}\|^2     }{2\|\vec{NX}\|\|\vec{OX}\|}
-\end{equation}
-\begin{equation}
-\cos{\angle{OXM}} = \frac{  \|\vec{MX}\|^2 + \|\vec{OX}\|^2  - \|\vec{OM}\|^2     }{2\|\vec{MX}\|\|\vec{OX}\|}
-\end{equation}
+\begin{align}
+\cos{\angle{OXN}} = \frac{  \norm{\vec{NX}}^2 + \norm{\vec{OX}}^2  - \norm{\vec{ON}}^2     }{2\norm{\vec{NX}}\norm{\vec{OX}}}
+\end{align}
+\begin{align}
+\cos{\angle{OXM}} = \frac{  \norm{\vec{MX}}^2 + \norm{\vec{OX}}^2  - \norm{\vec{OM}}^2     }{2\norm{\vec{MX}}\norm{\vec{OX}}}
+\end{align}
 Using \eqref{eq:4} and \eqref{eq:3} 
-\begin{equation}
-\cos{\angle{OXN}} = \cos{\angle{OXM}}
-\end{equation}
+\begin{align}
+\cos{\phase{OXN}} = \cos{\angle{OXM}}
+\\
+	Therefore, \angle{OXM} = \angle{OXN}
+\end{align}
+	$\implies \angle{OXA} = \angle{OXD}$
 
-\begin{comment}
-\begin{enumerate}
-	\item $\angle{OMX} = \angle{ONX} $ \quad \{90\degree\}
-	\item $\vec{OM} = \vec{ON}$ \quad \{From:\eqref{eq:3}\}
-	\item $\vec{OX} = \vec{OX}$ \quad \{Common\}
-\end{enumerate}
-Hence  $\triangle OMX \cong \triangle ONX $ by RHS rule.\\
-\end{comment}
-	Therefore, $\angle{OXM} = \angle{OXN}$\\
-$	\implies \angle{OXA} = \angle{OXD}$\\
 
 Hence Proved.
 

@@ -1,5 +1,8 @@
 \renewcommand{\vec}[1]{\mathbf{#1}}
-\begin{enumerate}
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
 \item
 The figure for a circle obtained in the question looks like Fig. \ref{fig:stepthreetex}, with radius $\vec{r}$, center $\vec{O}$ and equal chords $\vec{AB}$ and $\vec{CD}$ whose point of intersection is $\vec{X}$.  
 \begin{figure}[!ht]
@@ -10,9 +13,9 @@ The figure for a circle obtained in the question looks like Fig. \ref{fig:stepth
 \end{figure}
 
 \item 
-Two chords are said to be equal if their lengths are the same. The length of a chord is given by 2r$\sin{\frac{\theta}{2}}$, where $\vec{r}$ is the radius and  $\theta$ is the angle subtended by the chord at the center of the circle. Thus in a circle, equal chords subtend equal angles at the center.
-
-\item Let us assume that the two equal chords $\vec{AB}$ and $\vec{CD}$ subtend equal angles of $\theta$ = 90$\degree$ at the center of the circle. $\theta_1$ and $\theta_2$ are the angles between x-axis and points $\vec{B}$ and $\vec{D}$ respectively.
+Two chords $\vec{AB}$ and $\vec{CD}$ are said to be equal if their lengths are the same.Hence we need to show that $\norm{\vec{B}-\vec{A}} = \norm{\vec{D}-\vec{C}}$ to say the two chords are equal.
+\item
+Let $\theta_1$, $\theta_2$, $\theta_3$ and $\theta_4$ are the angles between x-axis and points $\vec{B}$,$\vec{A}$ ,$\vec{D}$  and $\vec{C}$ respectively.
 
 %\begin{comment}
 The values used for constructing the circle in both Python and \LaTeX{}-Tikz is in Table \ref{table:table1}:\\
@@ -27,23 +30,28 @@ The values used for constructing the circle in both Python and \LaTeX{}-Tikz is 
 
 
 \item Finding the coordinates of various points of Fig. \ref{fig:stepthreetex}, let 
-\quad $ \vec{O}= \begin{pmatrix}0\\0\end{pmatrix}$
+\quad $ \vec{O}= \myvec{0\\0}$
 %  \quad $\vec{A}=\begin{pmatrix}r\cos{\big(\theta _1 + \frac{\pi}{2}\big)}\\r\sin{\big{\theta _1 + \frac{\pi}{2}\big)}\end{pmatrix}$
 
-  \quad $ \vec{B}= \begin{pmatrix}r\cos{\theta _1}\\r\sin{\theta _1}\end{pmatrix}$
-  \quad $\vec{A}=\begin{pmatrix}r\cos{\big(\theta _1 + \theta\big)}\\r\sin{\big(\theta _1 + \theta\big)}\end{pmatrix}$
+  \quad $ \vec{B}= \myvec{r\cos{\theta _1}\\r\sin{\theta _1}}$
+  \quad $\vec{A}=\myvec{r\cos{\theta _2}\\r\sin{\theta _2}}$
 
-  \quad $ \vec{D}= \begin{pmatrix}r\cos{\theta _2}\\r\sin{\theta _2}\end{pmatrix}$
-  \quad $\vec{C}=\begin{pmatrix}r\cos{\big(\theta _2 + \theta\big)}\\r\sin{\big(\theta _2 + \theta\big)}\end{pmatrix}$
+  \quad $ \vec{D}= \myvec{r\cos{\theta _3}\\r\sin{\theta _3}}$
+  \quad $\vec{C}=\myvec{r\cos{\theta _4 }\\r\sin{\theta _4}}$
 
 \item As $\vec{OM} and \vec{ON}$ are the perpendiculars from the center of the circle to the chord,which are the midpoints of $\vec{AB}$ and $\vec{CD}$, and are hence represented as:\\
-  \quad $ \vec{M}$ = $\frac{\vec{A+B}}{2}$\quad
-  \quad $ \vec{N}$ = $\frac{\vec{C+D}}{2}$\\ 
+\begin{align}
+ \vec{M} = \frac{\vec{A+B}}{2}\\
+  \vec{N} = \frac{\vec{C+D}}{2} 
+\end{align}
 
-
-
+\item To find the point of intersection $\vec{X}$ of the two chords:\\
+Equations of $\vec{AB}$ and $\vec{CD}$ is represented as
+$\myvec{0.74&-2.72\\0.74&2.72}\vec{x}$   = $\myvec{3.97\\-3.97}$
+On solving we get $\vec{x}$ = $\myvec{0\\-1.45}$\\
+Thus the coordinates of $\vec{X}$ = $\myvec{0\\-1.45}$\\
 %\begin{comment}
-The derived values used is in Table \ref{table:table2}:\\
+The derived values used is in Table \ref{table:table2}:
 \begin{table}[ht]
     \begin{center}
     	\input{./tables/derivedtable.tex}
@@ -52,21 +60,6 @@ The derived values used is in Table \ref{table:table2}:\\
    \end{center}	
 \end{table}
 %\end{comment}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 \end{enumerate}
