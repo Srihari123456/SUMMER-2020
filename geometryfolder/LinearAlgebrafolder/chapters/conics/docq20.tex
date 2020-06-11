@@ -1,0 +1,93 @@
+\subsection{Problem}
+
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+	\item Find a quadratic polynomial each with the given numbers as the sum and the product of its zeroes.
+	\begin{enumerate}
+	
+		\item -1,$\frac{1}{4}$
+		\\
+		\solution For a general polynomial equation of degree 2,
+	\begin{multline}
+	p\brak{x,y} \implies Ax^2 +Bxy + Cy^2 +Dx + Ey + F = 0\\
+	\text{The vector form is}\\
+	\vec{x}^T\myvec{A&\frac{B}{2}\\\frac{B}{2}&C}\vec{x}  + \myvec{D&E}\vec{x} + F = 0 \label{eq:qtwenty}
+	\end{multline}
+Here, sum of zeroes = D = -1\\
+Product of zeroes = F =$\frac{1}{4}$\\
+Substituing the values in \ref{eq:qtwenty},\\
+\begin{multline}
+\vec{x}^T\myvec{1&0\\0&0}\vec{x}  + 
+\myvec{1&-1}\vec{x} +\frac{1}{4} = 0\\
+\end{multline}
+\begin{align}
+\implies y = x^2 + x + \frac{1}{4}
+\end{align}
+	
+		
+		\item 1,1
+		\\
+		\solution
+Here, sum of zeroes = D = 1\\
+Product of zeroes = F =1\\
+Substituing the values in \ref{eq:qtwenty},\\
+\begin{multline}
+\vec{x}^T\myvec{1&0\\0&0}\vec{x}  + \myvec{-1&-1}\vec{x} +1 = 0
+\end{multline}
+\begin{align}
+\implies y = x^2 - x + 1 
+\end{align}
+		
+		\item 0,$\sqrt{5}$\\
+		\solution
+Here, sum of zeroes = D = 0\\
+Product of zeroes = F =$\sqrt{5}$\\
+Substituing the values in \ref{eq:qtwenty},\\
+\begin{multline}
+\vec{x}^T\myvec{1&0\\0&0}\vec{x}  + \myvec{0&-1}\vec{x} + \sqrt{5} = 0
+\end{multline}
+\begin{align}
+\implies y = x^2 + \sqrt{5}  
+\end{align}
+		\item 4,1\\
+		\solution 
+Here, sum of zeroes = D = 4\\
+Product of zeroes = F = 1\\
+Substituing the values in \ref{eq:qtwenty},\\
+\begin{multline}
+\vec{x}^T\myvec{1&0\\0&0}\vec{x}  + \myvec{-4&-1}\vec{x} + 1 = 0
+\end{multline}
+\begin{align}
+\implies y = x^2 - 4x + 1 
+\end{align}
+
+
+		\item $\frac{1}{4}$,$\frac{1}{4}$\\
+\solution 
+Here, sum of zeroes = D = $\frac{1}{4}$\\
+Product of zeroes = F = $\frac{1}{4}$\\
+Substituing the values in \ref{eq:qtwenty},\\
+
+\begin{multline}
+\vec{x}^T\myvec{1&0\\0&0}\vec{x}  + \myvec{-\frac{1}{4}&-1}\vec{x} + \frac{1}{4} = 0
+\end{multline}
+\begin{align}
+\implies y = x^2 - \frac{1}{4}x + \frac{1}{4} 
+\end{align}
+
+
+		\item $\sqrt{2}$,$\frac{1}{3}$\\
+\solution
+Here, sum of zeroes = D = $\sqrt{2}$\\
+Product of zeroes = F = $\frac{1}{3}$\\
+Substituing the values in \ref{eq:qtwenty},\\
+\begin{multline}
+\vec{x}^T\myvec{1&0\\0&0}\vec{x}  + \myvec{-\sqrt{2}&-1}\vec{x} + \frac{1}{3} = 0
+\end{multline}
+\begin{align}
+\implies y = x^2 - \sqrt{2}x + \frac{1}{3}
+\end{align}
+	\end{enumerate}
+\end{enumerate}
