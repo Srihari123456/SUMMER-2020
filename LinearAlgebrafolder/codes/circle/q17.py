@@ -4,7 +4,7 @@
 #Circumcircle of a triangle
 import numpy as np
 import matplotlib.pyplot as plt
-from coeffs17 import *
+#from coeffs import *
 
 #if using termux
 import subprocess
@@ -64,18 +64,36 @@ plt.fill_between(x_circ[0,:],x_circ[1,:], color = "yellow", alpha = 0.4, hatch =
 # The point of intersection of the line and the circle is (0.707,0.707) . hence the integrals have limits 0-->0.707 ;;; 0.707-->1
 
 plt.fill_between(t,0)
+A = np.array([0.707,0.707])
+C = np.array([1,0])
+B = np.array([0.707,0])
+qw = np.linalg.norm(B-A)
+
+er =np.linalg.norm(O-A)
+ty = np.linalg.norm(B-O)
+cang = (-qw**2+er**2+ty**2)/(2*er*ty)
+print("angle = ",cang)
+import math
+OAB = math.acos(cang)
+print(OAB)
+areareq = (OAB*180/3.14)/360 * 3.14 * 1*1
 
 
-from sympy import *
-x, y = symbols('x y') 
-gfg_exp = x  
-gfg_expt = sqrt((1-x**2))
+
+#from sympy import *
+#x, y = symbols('x y') 
+#gfg_exp = x  
+#gfg_expt = sqrt((1-x**2))
 
 # Use sympy.integrate() method 
-a =integrate(gfg_exp, (x, 0, 0.707))
-b=integrate(gfg_expt, (x, 0.707,1) )
-b+a
-print("REQUIRED AREA = ",3.14/4 - 0.3926)
+#a =integrate(gfg_exp, (x, 0, 0.707))
+#b=integrate(gfg_expt, (x, 0.707,1) )
+#print("B====",b+a)
+#b+a
+print("REQUIRED AREA = ",areareq)
+      #3.14/4 - 0.3926)
+
+
 
 plt.xlabel('$x$')
 plt.ylabel('$y$')
@@ -88,4 +106,5 @@ plt.savefig('./figs/q17.eps')
 #subprocess.run(shlex.split("termux-open ./figs/circle/tri_ccircle.pdf"))
 #else
 plt.show()
+
 

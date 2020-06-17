@@ -12,14 +12,24 @@
 	./codes/lines/q9.py
 	\end{lstlisting}
 	
-	\solution The slope of line $\vec{AB}$ is given as:
+	\solution Let the given line be represented as 
 	\begin{align}
-\tan \theta = \frac{B[1]-A[1]}{B[0]-A[0]}
-		\\
-\text{which on computing yields} \quad \tan \theta = -1
-\\
-\therefore \theta = \tan^{-1}(-1) = 135\degree	
+	\vec{u} = \vec{A-B} = \myvec{-1\\1}
 	\end{align}
+	x-axis can be represented as
+	\begin{align}
+	\vec{v} = \myvec{a\\0}
+	\end{align}
+where a$ \in \mathbb{R}$\\
+\begin{align}
+\vec{u}^T\vec{v} = \norm{\vec{u}}\norm{\vec{v}}\cos{\theta}
+	\\
+	\cos{\theta} = \frac{-a}{\sqrt{2}a}
+	\\
+	\cos{\theta} = \frac{-1}{\sqrt{2}}
+	\\
+	\theta = 135\degree 
+\end{align}
 
 	\begin{figure}[!ht]
 	\centering
