@@ -10,15 +10,15 @@
 	\end{lstlisting}
 	
 	\solution For a general polynomial equation of degree 2,
-	\begin{multline}
+	\begin{align}
 	p\brak{x,y} \implies Ax^2 +Bxy + Cy^2 +Dx + Ey + F = 0
-	\\
-	\text{The vector form is}
-	\\
+	\end{align}
+	The vector form is
+	\begin{align}
 	\vec{x}^T\myvec{A&\frac{B}{2}\\\frac{B}{2}&C}\vec{x}  + \myvec{D&E}\vec{x} + F = 0 \label{eq:theend}
-	\end{multline}
-	Here \begin{align}y = 6x^2-x-2 \quad \text{The vector form is}
-	\\
+	\end{align}
+	Here $y = 6x^2-x-2$ \quad The vector form is
+	\begin{align}
 	\vec{x}^T\myvec{6&0\\0&0}\vec{x}  + \myvec{-1&-1}\vec{x} -2 = 0
 	\end{align}
 	Thus, from \ref{eq:theend}
@@ -38,7 +38,7 @@
 \end{comment}
 	\begin{figure}[!ht]
 	\centering
-	\includegraphics[width=\columnwidth]{./figs/conics/q19.pdf}
+	\includegraphics[width=\columnwidth]{./figs/conics/q19.eps}
 	\caption{Parabola of Q.5.1.5}
 	\label{fig:qnineteen}	
 	\end{figure}

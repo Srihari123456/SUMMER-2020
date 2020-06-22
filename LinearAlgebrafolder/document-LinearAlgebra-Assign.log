@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.12)  21 JUN 2020 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.12)  22 JUN 2020 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1636,10 +1636,21 @@ File: ./figs/quadrilateral/q4.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/quadrilateral/q4.pdf  used on input line 25.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 ) (./chapters/lines/docq6.tex
-<./figs/lines/q6.pdf, id=237, 462.52798pt x 346.89601pt>
-File: ./figs/lines/q6.pdf Graphic file (type pdf)
-<use ./figs/lines/q6.pdf>
-Package pdftex.def Info: ./figs/lines/q6.pdf  used on input line 13.
+Package epstopdf Info: Source file: <./figs/lines/q6.eps>
+(epstopdf)                    date: 2020-06-08 15:12:31
+(epstopdf)                    size: 13919 bytes
+(epstopdf)             Output file: <./figs/lines/q6-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:38:07
+(epstopdf)                    size: 8064 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/lines/q6-eps-conver
+ted-to.pdf ./figs/lines/q6.eps>
+(epstopdf)             \includegraphics on input line 13.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/lines/q6-eps-converted-to.pdf, id=237, 462.52798pt x 346.89601pt>
+File: ./figs/lines/q6-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/lines/q6-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/lines/q6-eps-converted-to.pdf  used on input li
+ne 13.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 ) (./chapters/lines/docq7.tex
 Overfull \hbox (28.61276pt too wide) detected at line 8
@@ -1656,202 +1667,339 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-[2 <./figs/quadrilateral/q4.pdf> <./figs/lines/q6.pdf
+[2 <./figs/quadrilateral/q4.pdf> <./figs/lines/q6-eps-converted-to.pdf>])
+(./chapters/lines/docq9.tex
+Package epstopdf Info: Source file: <./figs/lines/q9.eps>
+(epstopdf)                    date: 2020-06-22 12:30:58
+(epstopdf)                    size: 19191 bytes
+(epstopdf)             Output file: <./figs/lines/q9-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:38:09
+(epstopdf)                    size: 9271 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/lines/q9-eps-conver
+ted-to.pdf ./figs/lines/q9.eps>
+(epstopdf)             \includegraphics on input line 34.
+runsystem(repstopdf --outfile=./figs/lines/q9-eps-converted-to.pdf ./figs/lines
+/q9.eps)...executed safely (allowed).
 
-pdfTeX warning: pdflatex (file ./figs/lines/q6.pdf): PDF inclusion: multiple pd
-fs with page group included in a single page
->]) (./chapters/lines/docq9.tex
-<./figs/lines/q9.pdf, id=305, 462.52798pt x 346.89601pt>
-File: ./figs/lines/q9.pdf Graphic file (type pdf)
-<use ./figs/lines/q9.pdf>
-Package pdftex.def Info: ./figs/lines/q9.pdf  used on input line 34.
+Package epstopdf Info: Result file: <./figs/lines/q9-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 12:33:08
+(epstopdf)                    size: 11160 bytes.
+<./figs/lines/q9-eps-converted-to.pdf, id=302, 462.52798pt x 346.89601pt>
+File: ./figs/lines/q9-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/lines/q9-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/lines/q9-eps-converted-to.pdf  used on input li
+ne 34.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 ) (./chapters/lines/docq10.tex
-<./figs/lines/q10.pdf, id=307, 462.52798pt x 346.89601pt>
-File: ./figs/lines/q10.pdf Graphic file (type pdf)
-<use ./figs/lines/q10.pdf>
-Package pdftex.def Info: ./figs/lines/q10.pdf  used on input line 24.
+Package epstopdf Info: Source file: <./figs/lines/q10.eps>
+(epstopdf)                    date: 2020-06-04 15:43:21
+(epstopdf)                    size: 21933 bytes
+(epstopdf)             Output file: <./figs/lines/q10-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:38:10
+(epstopdf)                    size: 9816 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/lines/q10-eps-conve
+rted-to.pdf ./figs/lines/q10.eps>
+(epstopdf)             \includegraphics on input line 24.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/lines/q10-eps-converted-to.pdf, id=304, 462.52798pt x 346.89601pt>
+File: ./figs/lines/q10-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/lines/q10-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/lines/q10-eps-converted-to.pdf  used on input l
+ine 24.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 )
-(./chapters/lines/docq11.tex [3 <./figs/lines/q9.pdf>]
-<./figs/lines/q11a.pdf, id=368, 462.52798pt x 346.89601pt>
-File: ./figs/lines/q11a.pdf Graphic file (type pdf)
-<use ./figs/lines/q11a.pdf>
-Package pdftex.def Info: ./figs/lines/q11a.pdf  used on input line 23.
+(./chapters/lines/docq11.tex [3 <./figs/lines/q9-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figs/lines/q11a.eps>
+(epstopdf)                    date: 2020-06-04 17:21:59
+(epstopdf)                    size: 14478 bytes
+(epstopdf)             Output file: <./figs/lines/q11a-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:38:10
+(epstopdf)                    size: 7442 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/lines/q11a-eps-conv
+erted-to.pdf ./figs/lines/q11a.eps>
+(epstopdf)             \includegraphics on input line 23.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/lines/q11a-eps-converted-to.pdf, id=368, 462.52798pt x 346.89601pt>
+File: ./figs/lines/q11a-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/lines/q11a-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/lines/q11a-eps-converted-to.pdf  used on input 
+line 23.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-<./figs/lines/q11b.pdf, id=369, 462.52798pt x 346.89601pt>
-File: ./figs/lines/q11b.pdf Graphic file (type pdf)
-<use ./figs/lines/q11b.pdf>
-Package pdftex.def Info: ./figs/lines/q11b.pdf  used on input line 29.
+Package epstopdf Info: Source file: <./figs/lines/q11b.eps>
+(epstopdf)                    date: 2020-06-04 17:20:57
+(epstopdf)                    size: 11720 bytes
+(epstopdf)             Output file: <./figs/lines/q11b-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:38:11
+(epstopdf)                    size: 6675 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/lines/q11b-eps-conv
+erted-to.pdf ./figs/lines/q11b.eps>
+(epstopdf)             \includegraphics on input line 29.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/lines/q11b-eps-converted-to.pdf, id=369, 462.52798pt x 346.89601pt>
+File: ./figs/lines/q11b-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/lines/q11b-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/lines/q11b-eps-converted-to.pdf  used on input 
+line 29.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 )
 (./chapters/lines/docq12.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./figs/lines/q10.pdf> <./figs/lines/q11a.pdf
-
-pdfTeX warning: pdflatex (file ./figs/lines/q11a.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
-> <./figs/lines/q11b.pdf
-
-pdfTeX warning: pdflatex (file ./figs/lines/q11b.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
->]
-<./figs/lines/q12.pdf, id=442, 462.52798pt x 346.89601pt>
-File: ./figs/lines/q12.pdf Graphic file (type pdf)
-<use ./figs/lines/q12.pdf>
-Package pdftex.def Info: ./figs/lines/q12.pdf  used on input line 41.
+ [4 <./figs/lines/q10-eps-converted-to.pdf> <./figs/lines/q11a-eps-converted-to
+.pdf> <./figs/lines/q11b-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figs/lines/q12.eps>
+(epstopdf)                    date: 2020-06-09 16:30:13
+(epstopdf)                    size: 22828 bytes
+(epstopdf)             Output file: <./figs/lines/q12-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:38:11
+(epstopdf)                    size: 11115 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/lines/q12-eps-conve
+rted-to.pdf ./figs/lines/q12.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/lines/q12-eps-converted-to.pdf, id=438, 462.52798pt x 346.89601pt>
+File: ./figs/lines/q12-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/lines/q12-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/lines/q12-eps-converted-to.pdf  used on input l
+ine 41.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./chapters/lines/docq13.tex) (./chapters/lines/docq14.tex)
-(./chapters/lines/docq15.tex
+) (./chapters/lines/docq13.tex)
+(./chapters/lines/docq14.tex) (./chapters/lines/docq15.tex
 Underfull \hbox (badness 1748) in paragraph at lines 5--7
 \OT1/txr/m/n/12 bers which sat-isfy the re-quired con-di-tion,
  []
 
-[5 <./figs/lines/q12.pdf>]
-<./figs/lines/q15.pdf, id=498, 462.52798pt x 346.89601pt>
-File: ./figs/lines/q15.pdf Graphic file (type pdf)
-<use ./figs/lines/q15.pdf>
-Package pdftex.def Info: ./figs/lines/q15.pdf  used on input line 29.
+Package epstopdf Info: Source file: <./figs/lines/q15.eps>
+(epstopdf)                    date: 2020-06-08 10:01:44
+(epstopdf)                    size: 19956 bytes
+(epstopdf)             Output file: <./figs/lines/q15-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:38:12
+(epstopdf)                    size: 10007 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/lines/q15-eps-conve
+rted-to.pdf ./figs/lines/q15.eps>
+(epstopdf)             \includegraphics on input line 29.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/lines/q15-eps-converted-to.pdf, id=440, 462.52798pt x 346.89601pt>
+File: ./figs/lines/q15-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/lines/q15-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/lines/q15-eps-converted-to.pdf  used on input l
+ine 29.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./chapters/lines/docq16.tex)
+[5 <./figs/lines/q12-eps-converted-to.pdf>]) (./chapters/lines/docq16.tex)
 (./chapters/circle/docq17.tex
 Overfull \hbox (8.53418pt too wide) detected at line 15
 []
  []
 
-<./figs/circle/q17.pdf, id=501, 462.52798pt x 346.89601pt>
+<./figs/circle/q17.pdf, id=502, 462.52798pt x 346.89601pt>
 File: ./figs/circle/q17.pdf Graphic file (type pdf)
 <use ./figs/circle/q17.pdf>
 Package pdftex.def Info: ./figs/circle/q17.pdf  used on input line 47.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 ) (./chapters/circle/docq18.tex
-<./figs/circle/q18abc.pdf, id=510, 462.52798pt x 346.89601pt>
-File: ./figs/circle/q18abc.pdf Graphic file (type pdf)
-<use ./figs/circle/q18abc.pdf>
-Package pdftex.def Info: ./figs/circle/q18abc.pdf  used on input line 24.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
- [6 <./figs/lines/q15.pdf> <./figs/circle/q17.pdf
+Package epstopdf Info: Source file: <./figs/circle/q18abc.eps>
+(epstopdf)                    date: 2020-06-13 17:01:44
+(epstopdf)                    size: 29537 bytes
+(epstopdf)             Output file: <./figs/circle/q18abc-eps-converted-to.pdf>
 
-pdfTeX warning: pdflatex (file ./figs/circle/q17.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
->]
+(epstopdf)                    date: 2020-06-22 11:24:35
+(epstopdf)                    size: 13511 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/circle/q18abc-eps-c
+onverted-to.pdf ./figs/circle/q18abc.eps>
+(epstopdf)             \includegraphics on input line 24.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/circle/q18abc-eps-converted-to.pdf, id=511, 462.52798pt x 346.89601pt>
+File: ./figs/circle/q18abc-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/circle/q18abc-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/circle/q18abc-eps-converted-to.pdf  used on inp
+ut line 24.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+ [6 <./figs/lines/q15-eps-converted-to.pdf> <./figs/circle/q17.pdf>]
 Overfull \hbox (4.78673pt too wide) detected at line 33
  []$[]  [] \OMS/txsy/m/n/12 ^^@ [] \OT1/txr/bx/n/12 x \OMS/txsy/m/n/12 ^^@ \OT1
 /txr/m/n/12 12 = 0[]$ 
  []
 
-<./figs/circle/q18d.pdf, id=616, 462.52798pt x 346.89601pt>
-File: ./figs/circle/q18d.pdf Graphic file (type pdf)
-<use ./figs/circle/q18d.pdf>
-Package pdftex.def Info: ./figs/circle/q18d.pdf  used on input line 67.
+Package epstopdf Info: Source file: <./figs/circle/q18d.eps>
+(epstopdf)                    date: 2020-06-10 10:31:14
+(epstopdf)                    size: 18387 bytes
+(epstopdf)             Output file: <./figs/circle/q18d-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:24:35
+(epstopdf)                    size: 9081 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/circle/q18d-eps-con
+verted-to.pdf ./figs/circle/q18d.eps>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/circle/q18d-eps-converted-to.pdf, id=613, 462.52798pt x 346.89601pt>
+File: ./figs/circle/q18d-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/circle/q18d-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/circle/q18d-eps-converted-to.pdf  used on input
+ line 67.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 ) (./chapters/conics/docq19.tex
-<./figs/conics/q19.pdf, id=619, 462.52798pt x 346.89601pt>
-File: ./figs/conics/q19.pdf Graphic file (type pdf)
-<use ./figs/conics/q19.pdf>
-Package pdftex.def Info: ./figs/conics/q19.pdf  used on input line 41.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./chapters/conics/docq20.tex [7 <./figs/circle/q18abc.pdf> <./figs/circle/q1
-8d.pdf
+Overfull \hbox (13.09506pt too wide) detected at line 15
+[]
+ []
 
-pdfTeX warning: pdflatex (file ./figs/circle/q18d.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
->]
-<./figs/conics/q20a.pdf, id=695, 462.52798pt x 346.89601pt>
-File: ./figs/conics/q20a.pdf Graphic file (type pdf)
-<use ./figs/conics/q20a.pdf>
-Package pdftex.def Info: ./figs/conics/q20a.pdf  used on input line 22.
+Package epstopdf Info: Source file: <./figs/conics/q19.eps>
+(epstopdf)                    date: 2020-06-06 11:07:11
+(epstopdf)                    size: 18126 bytes
+(epstopdf)             Output file: <./figs/conics/q19-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:27:01
+(epstopdf)                    size: 8344 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/conics/q19-eps-conv
+erted-to.pdf ./figs/conics/q19.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/conics/q19-eps-converted-to.pdf, id=616, 462.52798pt x 346.89601pt>
+File: ./figs/conics/q19-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/conics/q19-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/conics/q19-eps-converted-to.pdf  used on input 
+line 41.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+) (./chapters/conics/docq20.tex [7 <./figs/circle/q18abc-eps-converted-to.pdf> 
+<./figs/circle/q18d-eps-converted-to.pdf> <./figs/conics/q19-eps-converted-to.p
+df>]
+Package epstopdf Info: Source file: <./figs/conics/q20a.eps>
+(epstopdf)                    date: 2020-06-17 17:42:26
+(epstopdf)                    size: 17972 bytes
+(epstopdf)             Output file: <./figs/conics/q20a-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:27:01
+(epstopdf)                    size: 9037 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/conics/q20a-eps-con
+verted-to.pdf ./figs/conics/q20a.eps>
+(epstopdf)             \includegraphics on input line 22.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/conics/q20a-eps-converted-to.pdf, id=700, 462.52798pt x 346.89601pt>
+File: ./figs/conics/q20a-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/conics/q20a-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/conics/q20a-eps-converted-to.pdf  used on input
+ line 22.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
-Overfull \hbox (8.4288pt too wide) detected at line 32
- []$[]  \OML/txmi/m/it/12 p []  \OT1/txr/m/n/12 =[]\OMS/txsy/m/n/12 )  \OML/txm
-i/m/it/12 Ax[] \OT1/txr/m/n/12 + \OML/txmi/m/it/12 Bxy \OT1/txr/m/n/12 + \OML/t
-xmi/m/it/12 Cy[] \OT1/txr/m/n/12 + \OML/txmi/m/it/12 Dx \OT1/txr/m/n/12 + \OML/
-txmi/m/it/12 Ey \OT1/txr/m/n/12 + \OML/txmi/m/it/12 F \OT1/txr/m/n/12 = 0$ 
+Overfull \hbox (25.09506pt too wide) detected at line 30
+[]
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--36
-
- []
-
-<./figs/conics/q20b.pdf, id=698, 462.52798pt x 346.89601pt>
-File: ./figs/conics/q20b.pdf Graphic file (type pdf)
-<use ./figs/conics/q20b.pdf>
-Package pdftex.def Info: ./figs/conics/q20b.pdf  used on input line 48.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--57
-
- []
-
-[8 <./figs/conics/q19.pdf> <./figs/conics/q20a.pdf
-
-pdfTeX warning: pdflatex (file ./figs/conics/q20a.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
-> <./figs/conics/q20b.pdf
-
-pdfTeX warning: pdflatex (file ./figs/conics/q20b.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
->]
-<./figs/conics/q20c.pdf, id=780, 462.52798pt x 346.89601pt>
-File: ./figs/conics/q20c.pdf Graphic file (type pdf)
-<use ./figs/conics/q20c.pdf>
-Package pdftex.def Info: ./figs/conics/q20c.pdf  used on input line 67.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--76
-
- []
-
-<./figs/conics/q20d.pdf, id=783, 462.52798pt x 346.89601pt>
-File: ./figs/conics/q20d.pdf Graphic file (type pdf)
-<use ./figs/conics/q20d.pdf>
-Package pdftex.def Info: ./figs/conics/q20d.pdf  used on input line 86.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--95
-
- []
-
-<./figs/conics/q20e.pdf, id=786, 462.52798pt x 346.89601pt>
-File: ./figs/conics/q20e.pdf Graphic file (type pdf)
-<use ./figs/conics/q20e.pdf>
-Package pdftex.def Info: ./figs/conics/q20e.pdf  used on input line 106.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--115
-
- []
-
-<./figs/conics/q20f.pdf, id=789, 462.52798pt x 346.89601pt>
-File: ./figs/conics/q20f.pdf Graphic file (type pdf)
-<use ./figs/conics/q20f.pdf>
-Package pdftex.def Info: ./figs/conics/q20f.pdf  used on input line 127.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--137
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2027) has occurred while \output is active []
 
- [9 <./figs/conics/q20c.pdf> <./figs/conics/q20d.pdf
+Package epstopdf Info: Source file: <./figs/conics/q20b.eps>
+(epstopdf)                    date: 2020-06-17 17:44:05
+(epstopdf)                    size: 17375 bytes
+(epstopdf)             Output file: <./figs/conics/q20b-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:27:02
+(epstopdf)                    size: 8536 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/conics/q20b-eps-con
+verted-to.pdf ./figs/conics/q20b.eps>
+(epstopdf)             \includegraphics on input line 47.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/conics/q20b-eps-converted-to.pdf, id=703, 462.52798pt x 346.89601pt>
+File: ./figs/conics/q20b-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/conics/q20b-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/conics/q20b-eps-converted-to.pdf  used on input
+ line 47.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
-pdfTeX warning: pdflatex (file ./figs/conics/q20d.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
-> <./figs/conics/q20e.pdf
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
 
-pdfTeX warning: pdflatex (file ./figs/conics/q20e.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
->]) [10
+ []
 
- <./figs/conics/q20f.pdf>]
+Package epstopdf Info: Source file: <./figs/conics/q20c.eps>
+(epstopdf)                    date: 2020-06-17 17:47:53
+(epstopdf)                    size: 20390 bytes
+(epstopdf)             Output file: <./figs/conics/q20c-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:27:04
+(epstopdf)                    size: 8706 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/conics/q20c-eps-con
+verted-to.pdf ./figs/conics/q20c.eps>
+(epstopdf)             \includegraphics on input line 64.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/conics/q20c-eps-converted-to.pdf, id=706, 462.52798pt x 346.89601pt>
+File: ./figs/conics/q20c-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/conics/q20c-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/conics/q20c-eps-converted-to.pdf  used on input
+ line 64.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
+
+ []
+
+Package epstopdf Info: Source file: <./figs/conics/q20d.eps>
+(epstopdf)                    date: 2020-06-17 18:00:31
+(epstopdf)                    size: 17494 bytes
+(epstopdf)             Output file: <./figs/conics/q20d-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:27:05
+(epstopdf)                    size: 9124 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/conics/q20d-eps-con
+verted-to.pdf ./figs/conics/q20d.eps>
+(epstopdf)             \includegraphics on input line 81.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/conics/q20d-eps-converted-to.pdf, id=709, 462.52798pt x 346.89601pt>
+File: ./figs/conics/q20d-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/conics/q20d-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/conics/q20d-eps-converted-to.pdf  used on input
+ line 81.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+[8 <./figs/conics/q20a-eps-converted-to.pdf> <./figs/conics/q20b-eps-converted-
+to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 86--90
+
+ []
+
+Package epstopdf Info: Source file: <./figs/conics/q20e.eps>
+(epstopdf)                    date: 2020-06-17 18:04:41
+(epstopdf)                    size: 17417 bytes
+(epstopdf)             Output file: <./figs/conics/q20e-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:27:06
+(epstopdf)                    size: 8656 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/conics/q20e-eps-con
+verted-to.pdf ./figs/conics/q20e.eps>
+(epstopdf)             \includegraphics on input line 99.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/conics/q20e-eps-converted-to.pdf, id=776, 462.52798pt x 346.89601pt>
+File: ./figs/conics/q20e-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/conics/q20e-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/conics/q20e-eps-converted-to.pdf  used on input
+ line 99.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--108
+
+ []
+
+Package epstopdf Info: Source file: <./figs/conics/q20f.eps>
+(epstopdf)                    date: 2020-06-17 17:58:18
+(epstopdf)                    size: 19114 bytes
+(epstopdf)             Output file: <./figs/conics/q20f-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-22 11:27:06
+(epstopdf)                    size: 8878 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figs/conics/q20f-eps-con
+verted-to.pdf ./figs/conics/q20f.eps>
+(epstopdf)             \includegraphics on input line 118.
+Package epstopdf Info: Output file is already uptodate.
+<./figs/conics/q20f-eps-converted-to.pdf, id=779, 462.52798pt x 346.89601pt>
+File: ./figs/conics/q20f-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figs/conics/q20f-eps-converted-to.pdf>
+Package pdftex.def Info: ./figs/conics/q20f-eps-converted-to.pdf  used on input
+ line 118.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--128
+
+ []
+
+[9 <./figs/conics/q20c-eps-converted-to.pdf> <./figs/conics/q20d-eps-converted-
+to.pdf> <./figs/conics/q20e-eps-converted-to.pdf> <./figs/conics/q20f-eps-conve
+rted-to.pdf>]) [10
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
  (./document-LinearAlgebra-Assign.aux)
@@ -1863,13 +2011,13 @@ hanged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
  ) 
 Here is how much of TeX's memory you used:
- 40484 strings out of 481239
- 911228 string characters out of 5920377
- 1328894 words of memory out of 5000000
+ 40494 strings out of 481239
+ 912438 string characters out of 5920377
+ 1330893 words of memory out of 5000000
  54635 multiletter control sequences out of 15000+600000
  598472 words of font info for 157 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,18n,91p,502b,1879s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,18n,91p,502b,1260s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxbsc.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/ty
@@ -1880,10 +2028,10 @@ hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on document-LinearAlgebra-Assign.pdf (10 pages, 218094 bytes).
+Output written on document-LinearAlgebra-Assign.pdf (10 pages, 219882 bytes).
 PDF statistics:
- 985 PDF objects out of 1000 (max. 8388607)
- 644 compressed objects within 7 object streams
- 223 named destinations out of 1000 (max. 500000)
+ 962 PDF objects out of 1000 (max. 8388607)
+ 605 compressed objects within 7 object streams
+ 232 named destinations out of 1000 (max. 500000)
  476 words of extra memory for PDF output out of 10000 (max. 10000000)
 
