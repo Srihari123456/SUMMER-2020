@@ -1,4 +1,4 @@
-
+Probability and statistics solutions for questions 20-30 including examples and exercises are provided under ProbabilityAndStatisticsfolder.
 
 The LinearAlgebraFolder contains the solutions to the 5th questions in each section in the LA manual. The geometry folder has circles and triangles. Inside triangles solutions to two questions - Q1 and Q51 are provided. Circles has solution to Q39.
 
